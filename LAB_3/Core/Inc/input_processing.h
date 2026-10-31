@@ -1,0 +1,12 @@
+#ifndef INC_INPUT_PROCESSING_H_
+#define INC_INPUT_PROCESSING_H_
+
+#include "main.h"
+#include "input_reading.h"
+
+extern int mode;
+extern int duration;
+
+void fsm_for_input_processing(void);
+
+#endif
